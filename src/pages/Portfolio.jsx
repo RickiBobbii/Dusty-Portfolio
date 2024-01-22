@@ -3,7 +3,7 @@ import Project from "../components/Project";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../index.css";
 import image1 from "../assets/ChatSpace.png";
-import image2 from "../assets/CatFactsApp.jpg";
+import image2 from "../assets/CatApp.png";
 import image3 from "../assets/JATE-App.png";
 import image4 from "../assets/TechBlog.png";
 import image5 from "../assets/QuizApp.png";
