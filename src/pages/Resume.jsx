@@ -29,7 +29,7 @@ export default function Resume() {
             <h3>Developer Tools/ Platforms</h3>
             <p className="fs-5">
               Visual Studio Code, GitHub, Heroku, GitLab, Insomnia, MongoDB
-              Compass, Slack, Zoom, Discord, Google Workspace, Microsoft Office
+              Compass, GraphQL, Slack, Zoom, Discord, Google Workspace, Microsoft Office
             </p>
           </div>
         </div>
