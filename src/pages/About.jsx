@@ -7,7 +7,7 @@ export default function About() {
   return (
    
 
-    <div className="container vh-100 pt-5">
+    <div className="container vh-100 pt-4">
       <div className="row text-center justify-content-center">
         <div className="col col-md-8 mb-5">
           <div className="rounded shadow-sm py-5 px-4 bg-white text-dark bg-opacity-50">
@@ -23,13 +23,17 @@ export default function About() {
             </h2>
             <h2>About Me</h2>
             <p className="fs-5">
-              Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-              Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean
-              sed mollis diam. Nunc aliquet risus ac finibus porta. Nam quis
-              arcu non lectus tincidunt fermentum. Suspendisse aliquet orci
-              porta quam semper imperdiet. Praesent euismod mi justo, faucibus
-              scelerisque risus cursus in. Sed rhoncus mollis diam, sit amet
-              facilisis lectus blandit at.
+              Hello there! I am a full stack web
+              developer with a passion for creating and learning. I am
+              currently working my certification in full stack web development
+              from the Ohio State University. I have a unique background in
+              retail and service managment for more than 20 years.  For fun, I have also been a Roller Derby Referee 
+              for the WFTDA for almost 20 years as well.  Being engaged in the pet 
+              industry and customer service industry, I have harnessed strong problem solving
+              skills and my passion for helping others. I am excited to combine my passions with my 
+              new skills in web development to create a unique and enjoyable user experience.
+
+
             </p>
             <ul className="mb-0 list-inline mt-3">
               <li className="list-inline-item">
