@@ -24,3 +24,5 @@ export default function ContactInfo() {
     </div>
   );
 }
+
+// unused asset atm, future development
