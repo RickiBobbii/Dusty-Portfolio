@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Nav />
-      <main className="pb-5" style={background}>
+      <main className="pb-5" >
         <Outlet />
       </main>
       <Footer />

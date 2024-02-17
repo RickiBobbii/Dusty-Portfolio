@@ -81,15 +81,14 @@ export default function Contact() {
 
 
   return (
-    <section className="vh-100" style={{backgroundImage: `url(${CozyCat})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center",
-    backgroundAttachment:"fixed"}}> 
-      <div className="row justify-content-center">
-        <h1 className="text-center text-warning py-3 col col-md-5 mt-3 rounded" style={{backdropFilter: "blur(60px)"}}>Contact Me</h1>
-      </div>
-
-      <div className="container" >
+    // <section className="vh-100" style={{backgroundImage: `url(${CozyCat})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center",
+    // backgroundAttachment:"fixed"}}> 
+      <div className="container vh-100 mw-100" style={{backgroundImage: `url(${CozyCat})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center",
+       backgroundAttachment:"fixed"}} >
         <div className="row justify-content-center">
-          <div className="col col-md-5 rounded" style={{backdropFilter: "blur(60px)"}}>
+          {/* Form container */}
+          <div className="col col-sm-10 col-md-8 col-lg-5  rounded mt-5" style={{backdropFilter: "blur(60px)"}}>
+          <h1 className="text-center text-warning py-3 mt-3">Contact Me</h1>
             <form className="justify-content-center">
               {/* Name */}
               <div data-mdb-input-init className="form-outline mb-4 mt-3">
@@ -147,6 +146,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </section>
+    // </section>
   );
 }

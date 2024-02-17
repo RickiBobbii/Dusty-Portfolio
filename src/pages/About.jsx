@@ -7,7 +7,7 @@ export default function About() {
   return (
    
 
-    <div className="container vh-100 pt-4">
+    <div className="container pt-4">
       <div className="row text-center justify-content-center">
         <div className="col col-md-8 mb-5">
           <div className="rounded shadow-sm py-5 px-4 bg-white text-dark bg-opacity-50">
