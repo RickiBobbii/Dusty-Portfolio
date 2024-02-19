@@ -31,7 +31,7 @@ export default function Portfolio() {
       githubLink:
         "https://github.com/KaarageOnigiri/Cat-Images-and-Facts-Retriever",
       appLink:
-        "https://kaarageonigiri.github.io/Cat-Images-and-Facts-Retriever/",
+        "https://rickibobbii.github.io/Cat-Facts-App/",
       image: image2,
     },
     {
