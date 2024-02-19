@@ -13,17 +13,17 @@ const Footer = () => {
             <div className="">
                 <a className="mx-3" href="https://github.com/RickiBobbii">
                 <i className="social-links">
-                    <FaGithub />
+                    <FaGithub className="pb-2"/>
                     </i>
                 </a>
                 <a className="" href="mailto:rickibobbiii@gmail.com" >
                   <i className="social-links">
-                    <FaEnvelope />
+                    <FaEnvelope className="pb-2"/>
                   </i>
                 </a>
                 <a className="mx-3" href="https://www.linkedin.com/in/dustin-gray-517920a7/">
                 <i className="social-links">
-                    <FaLinkedin />
+                    <FaLinkedin className="pb-2"/>
                     </i>
                 </a>
             </div>

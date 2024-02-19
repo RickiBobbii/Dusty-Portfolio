@@ -34,14 +34,14 @@ export default function About() {
               <li className="list-inline-item">
                 <a href="https://github.com/RickiBobbii" className="">
                   <i className="social-links">
-                    <FaGithub />
+                    <FaGithub className="pb-2"/>
                   </i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="mailto:rickibobbiii@gmail.com" className="">
                   <i className="social-links">
-                    <FaEnvelope />
+                    <FaEnvelope className="pb-2" />
                   </i>
                 </a>
               </li>
@@ -51,7 +51,7 @@ export default function About() {
                   className=""
                 >
                   <i className="social-links">
-                    <FaLinkedin />
+                    <FaLinkedin  className="pb-2"/>
                   </i>
                 </a>
               </li>

@@ -8,9 +8,20 @@ import image3 from "../assets/JATE-App.png";
 import image4 from "../assets/TechBlog.png";
 import image5 from "../assets/QuizApp.png";
 import image6 from "../assets/WeatherApp.png";
+import image7 from "../assets/EndeavorPic.png";
 
 export default function Portfolio() {
   const projects = [
+    {
+      id: 1,
+      name: "Endeavor",
+      description: "A MERN stack application that allows users to create or join communities based on their interests.  Users can manage events, activities, or just discuss topics called Endeavors.",
+      technologies:
+        "HTML, CSS, JavaScript, MongoDB, Express, React, Node.js, Tailwind CSS, GraphQL, JWT, MongoDB Atlas, and Heroku",
+      githubLink: "https://github.com/nephh/project-3",
+      appLink: "https://safe-beyond-33631-d669d82cc99d.herokuapp.com/",
+      image: image7,
+    },
     {
       id: 1,
       name: "ChatSpace",
@@ -31,7 +42,7 @@ export default function Portfolio() {
       githubLink:
         "https://github.com/KaarageOnigiri/Cat-Images-and-Facts-Retriever",
       appLink:
-        "https://kaarageonigiri.github.io/Cat-Images-and-Facts-Retriever/",
+        "https://rickibobbii.github.io/Cat-Facts-App/",
       image: image2,
     },
     {
@@ -54,15 +65,15 @@ export default function Portfolio() {
       appLink: "https://arcane-hamlet-47926-17c19d5fa5ec.herokuapp.com/",
       image: image4,
     },
-    {
-      id: 5,
-      name: "JavaScript Quiz",
-      description: "A timed quiz app that tests your knowledge of JavaScript. The app stores your high score.",
-      technologies: "HTML, CSS, JavaScript, Local Storage",
-      githubLink: "https://github.com/RickiBobbii/JavaScript-Quiz",
-      appLink: "https://rickibobbii.github.io/JavaScript-Quiz/",
-      image: image5,
-    },
+    // {
+    //   id: 5,
+    //   name: "JavaScript Quiz",
+    //   description: "A timed quiz app that tests your knowledge of JavaScript. The app stores your high score.",
+    //   technologies: "HTML, CSS, JavaScript, Local Storage",
+    //   githubLink: "https://github.com/RickiBobbii/JavaScript-Quiz",
+    //   appLink: "https://rickibobbii.github.io/JavaScript-Quiz/",
+    //   image: image5,
+    // },
     {
       id: 6,
       name: "5-Day Weather App",
