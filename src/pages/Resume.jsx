@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from "react-icons/fa";
-import resume from "../assets/Dusty-Gray-Resume.pdf";
+import resume from "../assets/DustinGrayResumeCV.pdf";
 
 export default function Resume() {
   return (

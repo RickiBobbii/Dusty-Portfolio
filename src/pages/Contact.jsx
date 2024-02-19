@@ -86,7 +86,7 @@ export default function Contact() {
       <div className="container vh-100 mw-100" >
         <div className="row justify-content-center">
           {/* Form container */}
-          <div className="col col-sm-10 col-md-8 col-lg-5  rounded mt-5" style={{backdropFilter: "blur(60px)"}}>
+          <div className="col col-sm-10 col-md-8 col-lg-4  rounded mt-5" style={{backdropFilter: "blur(60px)"}}>
           <h1 className="text-center text-warning py-3 mt-3">Contact Me</h1>
             <form className="justify-content-center">
               {/* Name */}

@@ -9,7 +9,7 @@ export default function Project(props) {
   return (
     <div className="container">
       {/* Test grid */}
-      <h1 className="text-center">Portfolio</h1>
+      <h1 className="text-center pt-3">Portfolio</h1>
       <div className="row justify-content-center">
         {props.projects.map((project) => (
           <div className="col d-flex justify-content-center" key={project.id}>
