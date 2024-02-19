@@ -2,12 +2,12 @@
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
 import Footer from './components/Footer';
-import ImageAI from "./assets/ArtAI-4.jpg";
+import Image from "./assets/unsplashColor.jpg";
 
 function App() {
 
   const background = {
-    backgroundImage: `url(${ImageAI})`,
+    backgroundImage: `url(${Image})`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
@@ -16,8 +16,9 @@ function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
-      <Nav />
-      <main className="pb-5" >
+      {/* <Nav /> */}
+      <main className="pb-5" style={background}>
+        <Nav />
         <Outlet />
       </main>
       <Footer />

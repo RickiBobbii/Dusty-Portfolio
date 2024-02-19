@@ -83,8 +83,7 @@ export default function Contact() {
   return (
     // <section className="vh-100" style={{backgroundImage: `url(${CozyCat})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center",
     // backgroundAttachment:"fixed"}}> 
-      <div className="container vh-100 mw-100" style={{backgroundImage: `url(${CozyCat})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center",
-       backgroundAttachment:"fixed"}} >
+      <div className="container vh-100 mw-100" >
         <div className="row justify-content-center">
           {/* Form container */}
           <div className="col col-sm-10 col-md-8 col-lg-5  rounded mt-5" style={{backdropFilter: "blur(60px)"}}>
