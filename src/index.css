@@ -49,6 +49,15 @@ h1 {
   line-height: 1.1;
 }
 
+/* TEST card hover */
+.card {
+  transition: transform 0.2s ease;
+  border-color: #571884;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

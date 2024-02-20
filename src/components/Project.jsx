@@ -15,7 +15,7 @@ export default function Project(props) {
           <div className="col d-flex justify-content-center" key={project.id}>
             {/* Test column cards --  col d-flex justify-content-center*/}
             {/* Card */}
-            <div className="card m-3 p-2 bg-dark text-white bg-opacity-75" style={cardStyle}>
+            <div className="card m-3 p-2 bg-dark text-white bg-opacity-75 border-2" style={cardStyle}>
               <img
                 className="rounded border border-black"
                 style={{ height: 200 }}
@@ -24,7 +24,7 @@ export default function Project(props) {
               />
               {/* Card Body */}
               <div className="card-body">
-                <h5 className="card-header text-center bg-info-subtle text-dark">
+                <h5 className="card-header text-center bg-dark text-info">
                   {project.name}
                 </h5>
                 <h6 className="card-subtitle my-2 text-white-50">
@@ -39,7 +39,7 @@ export default function Project(props) {
                 {/* TEST Card footer */}
               </div>
               <div className="d-flex justify-content-around card-footer">
-                  <a href={project.githubLink} className="btn btn-info pb-2">
+                  <a href={project.githubLink} className="btn btn-primary pb-2">
                     <i className="p-1 fs-5">
                       {" "}
                       <FaGithub />
