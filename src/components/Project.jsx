@@ -7,7 +7,7 @@ export default function Project(props) {
   };
 
   return (
-    <div className="container">
+    <div className="container pb-5">
       {/* Test grid */}
       <h1 className="text-center pt-3">Portfolio</h1>
       <div className="row justify-content-center">

@@ -19,12 +19,12 @@ export default function Resume() {
             <h2 className="text-info pt-2">Front-End Skills</h2>
             <p className="fs-5 text-white">
               HTML5, CSS, JavaScript, jQuery, React, Handlebars, Bootstrap,
-              Tailwind, Bulma, PWA, IndexedDB, RESTful APIs, GIT
+              Tailwind, Bulma, PWA, IndexedDB, RESTful APIs, Responsive Design
             </p>
             <h2 className="text-info">Back-End Skills</h2>
             <p className="fs-5 text-white">
               Node.js, Express, Express-Session, MySQL, Sequelize, MongoDB, Mongoose, NoSQL,
-              Bcrypt, Dotenv
+              Bcrypt, Dotenv, Git
             </p>
             <h3 className="text-info">Developer Tools/ Platforms</h3>
             <p className="fs-5 text-white">
