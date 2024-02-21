@@ -17,7 +17,7 @@ export default function Portfolio() {
       name: "Endeavor",
       description: "A MERN stack application that allows users to create or join communities based on their interests.  Users can manage events, activities, or just discuss topics called Endeavors.",
       technologies:
-        "HTML, CSS, JavaScript, MongoDB, Express, React, Node.js, Tailwind CSS, GraphQL, JWT, MongoDB Atlas, and Heroku",
+        "HTML, CSS, JavaScript, MongoDB, Express, React, Node.js, Tailwind CSS, GraphQL, JWT, MongoDB Atlas, Heroku",
       githubLink: "https://github.com/nephh/project-3",
       appLink: "https://safe-beyond-33631-d669d82cc99d.herokuapp.com/",
       image: image7,
