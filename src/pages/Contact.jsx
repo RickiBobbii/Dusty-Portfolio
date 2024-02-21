@@ -88,7 +88,11 @@ export default function Contact() {
           {/* Form container */}
           <div className="col col-10 col-md-8 col-lg-4  rounded mt-5" style={{backdropFilter: "blur(60px)"}}>
           <h1 className="text-center text-warning py-3 mt-3">Contact Me</h1>
-            <form className="justify-content-center">
+            <form className="contactForm justify-content-center"
+              method="POST"
+              name="contact"
+              data-netlify="true"
+              >
               {/* Name */}
               <div data-mdb-input-init className="form-outline mb-4 mt-3">
                 <input
