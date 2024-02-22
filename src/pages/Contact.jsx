@@ -88,11 +88,10 @@ export default function Contact() {
           {/* Form container */}
           <div className="col col-10 col-md-8 col-lg-4  rounded mt-5" style={{backdropFilter: "blur(60px)"}}>
           <h1 className="text-center text-warning py-3 mt-3">Contact Me</h1>
+            {/* Form */}
             <form className="contactForm justify-content-center"
               method="POST"
               name="contact"
-              data-netlify="true"
-              netlify
               >
               <input type="hidden" name="form-name" value="contact" />
 
@@ -103,7 +102,7 @@ export default function Contact() {
                   value={name}
                   onChange={handleNameChange}
                   type="text"
-                  id="contact-name"
+                  id="name"
                   className="form-control"
                   placeholder="Name"
                 />
@@ -116,7 +115,7 @@ export default function Contact() {
                   value={email}
                   onChange={handleEmailChange}
                   type="email"
-                  id="contact-email"
+                  id="email"
                   className="form-control"
                   placeholder="Email"
                 />
@@ -129,7 +128,7 @@ export default function Contact() {
                   value={message}
                   onChange={handleMessageChange}
                   className="form-control"
-                  id="form4Example3"
+                  id="message"
                   rows="4"
                   placeholder="Message"
                 ></textarea>
