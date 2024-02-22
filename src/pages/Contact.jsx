@@ -138,7 +138,7 @@ export default function Contact() {
               {/* Email Link */}
               <div className="d-flex justify-content-between align-items-start">
                 {/* Send Button */}
-              <button type="button" onClick={handleFormSubmit} className="btn btn-warning btn-block mb-4">
+              <button type="submit" onClick={handleFormSubmit} className="btn btn-warning btn-block mb-4">
                 Send Message
               </button>
               </div>    
