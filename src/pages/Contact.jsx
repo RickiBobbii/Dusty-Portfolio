@@ -50,27 +50,27 @@ export default function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
     // Set a boolean variable to indicate if there is an valid input in the form fields
-    let valid = true;
+    //let valid = true;
 
-    if (!name) {
-      setErrorMessage("Name is required");
-      valid = false;
-      return;
-    }
-    // Check if email is valid
-    if (!validateEmail(email)) {
-      setErrorMessage("Email or name is invalid");
-      valid = false;
-      return;
-    }
-    if (!message) {
-      setErrorMessage(`Please enter a message.`);
-      valid = false;
-      return;
-    }
-    if (valid) {
-      setErrorMessage("Message sent!");
-    }
+    // if (!name) {
+    //   setErrorMessage("Name is required");
+    //   valid = false;
+    //   return;
+    // }
+    // // Check if email is valid
+    // if (!validateEmail(email)) {
+    //   setErrorMessage("Email or name is invalid");
+    //   valid = false;
+    //   return;
+    // }
+    // if (!message) {
+    //   setErrorMessage(`Please enter a message.`);
+    //   valid = false;
+    //   return;
+    // }
+    // if (valid) {
+    //   setErrorMessage("Message sent!");
+    //}
     console.log("Name:", name);
     console.log("Email:", email);
     console.log("Message:", message);
@@ -116,7 +116,7 @@ export default function Contact() {
           </form> */}
            <form className="contactForm justify-content-center"
               name="contact" method="POST" data-netlify="true"
-              onSubmit={handleFormSubmit}
+              //onSubmit={handleFormSubmit}
               >
               <input type="hidden" name="form-name" value="contact" />
 
@@ -124,12 +124,13 @@ export default function Contact() {
               <div className="form-outline mb-4 mt-3">
                 <input
                   name="name"
-                  value={name}
-                  onChange={handleNameChange}
+                  //value={name}
+                  //onChange={handleNameChange}
                   type="text"
                   id="name"
                   className="form-control"
                   placeholder="Name"
+                  required
                 />
                
               </div>
@@ -137,12 +138,13 @@ export default function Contact() {
               <div className="form-outline mb-4">
                 <input
                   name="email"
-                  value={email}
-                  onChange={handleEmailChange}
+                  //value={email}
+                  //onChange={handleEmailChange}
                   type="email"
                   id="email"
                   className="form-control"
                   placeholder="Email"
+                  required
                 />
               
               </div>
@@ -150,12 +152,13 @@ export default function Contact() {
               <div className="form-outline mb-4">
                 <textarea
                   name="message"
-                  value={message}
-                  onChange={handleMessageChange}
+                  //value={message}
+                  //onChange={handleMessageChange}
                   className="form-control"
                   id="message"
                   rows="4"
                   placeholder="Message"
+                  required
                 ></textarea>
                
               </div>
