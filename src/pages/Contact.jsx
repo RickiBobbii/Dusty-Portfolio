@@ -92,6 +92,7 @@ export default function Contact() {
               method="POST"
               name="contact"
               data-netlify="true"
+              netlify
               >
               <input type="hidden" name="form-name" value="contact" />
 
