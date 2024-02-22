@@ -112,7 +112,7 @@ export default function Contact() {
                   className="form-control"
                   placeholder="Name"
                 />
-                <label className="form-label"></label>
+               
               </div>
               {/* Email */}
               <div className="form-outline mb-4">
@@ -125,7 +125,7 @@ export default function Contact() {
                   className="form-control"
                   placeholder="Email"
                 />
-                <label className="form-label"></label>
+              
               </div>
               {/* Message */}
               <div className="form-outline mb-4">
@@ -138,7 +138,7 @@ export default function Contact() {
                   rows="4"
                   placeholder="Message"
                 ></textarea>
-                <label className="form-label"></label>
+               
               </div>
               
               {/* Email Link */}
