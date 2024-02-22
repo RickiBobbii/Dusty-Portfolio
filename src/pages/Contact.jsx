@@ -116,6 +116,7 @@ export default function Contact() {
           </form> */}
            <form className="contactForm justify-content-center"
               name="contact" method="POST" data-netlify="true"
+              action="/"
               //onSubmit={handleFormSubmit}
               >
               <input type="hidden" name="form-name" value="contact" />
