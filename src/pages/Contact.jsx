@@ -96,7 +96,7 @@ export default function Contact() {
               <input type="hidden" name="form-name" value="contact" />
 
               {/* Name */}
-              <div data-mdb-input-init className="form-outline mb-4 mt-3">
+              <div className="form-outline mb-4 mt-3">
                 <input
                   name="name"
                   value={name}
@@ -109,7 +109,7 @@ export default function Contact() {
                 <label className="form-label"></label>
               </div>
               {/* Email */}
-              <div data-mdb-input-init className="form-outline mb-4">
+              <div className="form-outline mb-4">
                 <input
                   name="email"
                   value={email}
@@ -122,7 +122,7 @@ export default function Contact() {
                 <label className="form-label"></label>
               </div>
               {/* Message */}
-              <div data-mdb-input-init className="form-outline mb-4">
+              <div className="form-outline mb-4">
                 <textarea
                   name="message"
                   value={message}
