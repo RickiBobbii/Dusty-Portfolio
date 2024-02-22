@@ -92,7 +92,7 @@ export default function Contact() {
         >
           <h1 className="text-center text-warning py-3 mt-3">Contact Me</h1>
           {/* Form */}
-          <form name="contact" method="POST" data-netlify="true">
+          {/* <form name="contact" method="POST" data-netlify="true">
           <input type="hidden" name="form-name" value="contact" />
 
             <p>
@@ -113,7 +113,61 @@ export default function Contact() {
             <p>
               <button type="submit">Send</button>
             </p>
-          </form>
+          </form> */}
+           <form className="contactForm justify-content-center"
+              name="contact" method="POST" data-netlify="true"
+              onSubmit={handleFormSubmit}
+              >
+              <input type="hidden" name="form-name" value="contact" />
+
+              {/* Name */}
+              <div className="form-outline mb-4 mt-3">
+                <input
+                  name="name"
+                  value={name}
+                  onChange={handleNameChange}
+                  type="text"
+                  id="name"
+                  className="form-control"
+                  placeholder="Name"
+                />
+               
+              </div>
+              {/* Email */}
+              <div className="form-outline mb-4">
+                <input
+                  name="email"
+                  value={email}
+                  onChange={handleEmailChange}
+                  type="email"
+                  id="email"
+                  className="form-control"
+                  placeholder="Email"
+                />
+              
+              </div>
+              {/* Message */}
+              <div className="form-outline mb-4">
+                <textarea
+                  name="message"
+                  value={message}
+                  onChange={handleMessageChange}
+                  className="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Message"
+                ></textarea>
+               
+              </div>
+              
+              {/* Email Link */}
+              <div className="d-flex justify-content-between align-items-start">
+                {/* Send Button */}
+              <button type="submit"  className="btn btn-warning btn-block mb-4">
+                Send Message
+              </button>
+              </div>    
+            </form>
 
           {errorMessage && (
             <div>
