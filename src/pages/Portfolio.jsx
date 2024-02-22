@@ -23,7 +23,7 @@ export default function Portfolio() {
       image: image7,
     },
     {
-      id: 1,
+      id: 2,
       name: "ChatSpace",
       description: "A social forum with live chat functionality.  Users can create an account, create posts, comment on posts, and chat with other users.",
       technologies:
@@ -33,7 +33,7 @@ export default function Portfolio() {
       image: image1,
     },
     {
-      id: 2,
+      id: 3,
       name: "Cat Random Facts App",
       description:
         "Usefull facts about cats along with cute cat images. Generates random facts and images as well pertaining to the selected breed.",
@@ -46,7 +46,7 @@ export default function Portfolio() {
       image: image2,
     },
     {
-      id: 3,
+      id: 4,
       name: "J.A.T.E Text Editor",
       description:
         "A text editor that is a single page application that uses PWA and IndexedDB to store and retrieve inputed text.  App can also be downloaded.",
@@ -57,7 +57,7 @@ export default function Portfolio() {
       image: image3,
     },
     {
-      id: 4,
+      id: 5,
       name: "Tech Blog",
       description: "A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well.",
       technologies: "HTML, CSS, JavaScript, Node.js, Express.js, Express-Session, MySQL, Sequelize, Handlebars.js, Bcrypt, dotenv, Heroku",

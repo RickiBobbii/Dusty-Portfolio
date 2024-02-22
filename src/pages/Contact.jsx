@@ -93,6 +93,8 @@ export default function Contact() {
               name="contact"
               data-netlify="true"
               >
+              <input type="hidden" name="form-name" value="contact" />
+
               {/* Name */}
               <div data-mdb-input-init className="form-outline mb-4 mt-3">
                 <input
