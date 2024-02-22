@@ -73,6 +73,9 @@ export default function Contact() {
     if (valid) {
       setErrorMessage('Message sent!');
     }
+    console.log('Name:', name);
+    console.log('Email:', email);
+    console.log('Message:', message);
     // Clear Inputs
     setName('');
     setEmail('');
@@ -92,6 +95,9 @@ export default function Contact() {
             <form className="contactForm justify-content-center"
               method="POST"
               name="contact"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              action="/success"
               >
               <input type="hidden" name="form-name" value="contact" />
 
