@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
-import profilePic from "../assets/profilePic.jpg";
+import profilePic from "../assets/profile-pic1B.jpg";
 
 export default function About() {
   return (
@@ -12,7 +12,8 @@ export default function About() {
               src={profilePic}
               alt=""
               width="200"
-              className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm bg-secondary border-secondary"
+              style={{ filter: "brightness(90%)" }}
+              className="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm bg-dark border-black"
             ></img>
             <h1 className="mb-3 pb-1">Dusty Gray</h1>
             <h2 className="fs-3 text-uppercase text-info">
