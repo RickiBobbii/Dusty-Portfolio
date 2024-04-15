@@ -53,7 +53,7 @@ export default function Portfolio() {
       technologies:
         "JavaScript, IndexedDB, Webpack, Node.js, Express.js, Heroku",
       githubLink: "https://github.com/RickiBobbii/PWA-Text-Editor",
-      appLink: "https://boiling-dawn-25219-c27d4b6fed52.herokuapp.com/",
+      appLink: "https://pwa-text-editor-ix9i.vercel.app/",
       image: image3,
     },
     {
