@@ -31,7 +31,8 @@ body {
   margin: 0;
   /* Causing display issue */
   /* display: flex; */
-  place-items: center;
+  /* line 35 was causing border issues */
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
   background-color: #000000;
