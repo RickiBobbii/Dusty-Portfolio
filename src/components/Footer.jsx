@@ -16,7 +16,7 @@ const Footer = () => {
                     <FaGithub className="pb-2"/>
                     </i>
                 </a>
-                <a className="" href="mailto:rickibobbiii@gmail.com" >
+                <a className="" href="mailto:dusty.a.gray@gmail.com" >
                   <i className="social-links">
                     <FaEnvelope className="pb-2"/>
                   </i>
